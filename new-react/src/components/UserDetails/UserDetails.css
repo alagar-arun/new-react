@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+.backgroundimg {
+    background-image: url('../Assets//apple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 58rem;
+}
+
+.user_inputs input {
+    width: 400px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+
+.user_inputs {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.user_inputs button {
+    margin-top: 10px;
+    width: 100px;
+    background-color: rgb(42, 226, 91);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    left: 48%;
+    margin-bottom: 100px;
+}
+
+.user_details {
+    width: 200px;
+    height: 250px;
+    float: left;
+    background: #e2e1e0;
+    margin: 100px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.user_details p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.user_details h5 {
+    margin-top: 40px;
+    /* background-color: rgb(42, 226, 91); */
+    border-radius: 30px;
+    /* color: #fff; */
+}
+
+.search {
+    padding-top: 50px;
+}
+
+.user_details:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.entrytime {
+    margin: 0px 2px;
+    font-size: 1em;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+table{
+    margin-top: 50px;
+    /* color: #fff; */
+}
+table tr th{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+table tr td{
+    /* color: #fff; */
+    font-size: 18px;
+}
+.all_data{
+    /* background: linear-gradient(rgb(118, 8, 118),rgb(60, 60, 210)); */
+    background-image: url('../Assets/userdata.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 60rem; */
+}
+.name_input{
+    margin-left: 20px;
+}

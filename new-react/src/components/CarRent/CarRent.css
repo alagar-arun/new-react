@@ -1,0 +1,182 @@
+.car_book {
+    display: table;
+    background-color: aquamarine;
+    background: url(./Assets/formBack.jpg);
+    width: 600px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+}
+.table{
+    text-align: center;
+}
+.car_book_none{
+    display: none;
+}   
+.car_book_btn{
+    background-color: rgb(35, 224, 161);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.sort_btn{
+    background-color: rgb(35, 224, 161);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size:medium;
+}
+.car_book button{
+    background-color: rgb(35, 224, 161);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 7px 30px;
+    margin-left: 70%;
+    
+}
+
+.car_input {
+    display: table-row;
+    margin-top: 20px;
+}
+
+ .car_input label {
+    display: table-cell;
+}
+
+.car_input .car_input {
+    display: table-cell;
+}
+
+.allCars {
+    background-image: url(./Assets/color.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.avilable_cars h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.all_cards {
+    margin-top: 50px;
+}
+
+.cars_card {
+    width: 270px;
+    height: 300px;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 50px 70px;
+    box-shadow: inset 0 0 7px #000000;
+    text-align: center;
+}
+
+.cars_card:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    opacity: 0.8;
+
+}
+
+.card_image {
+    width: 100%;
+    height: 150px;
+    padding: 2px;
+    background: transparent;
+}
+
+.card_buttons {
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.card_buttons button {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.sort_btn {
+    float: right;
+}
+
+.BookedData h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* -------------------nav------------------- */
+.nav_logo {
+    width: 70px;
+    height: 70px;
+}
+
+.nav_logo img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(54, 58, 54);
+}
+
+.home_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(32, 29, 29);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.nav_ul {
+    list-style-type: none;
+}
+
+.nav_ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+/* ---------------Home---------------- */
+.home h2 {
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.home h4 {
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.home {
+    text-align: center;
+    background-image: url(./Assets/truck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 880px;
+}
+
+.home ul {
+    list-style-type: none;
+}
+
+.home ul li {
+    text-align: center;
+    margin-top: 20px;
+}

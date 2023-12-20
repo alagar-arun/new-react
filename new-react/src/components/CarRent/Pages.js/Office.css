@@ -1,0 +1,105 @@
+
+.create_task{
+    width: 500px;
+    /* background-color:rgb(153, 121, 121) ; */
+    background: url(../Assets/formBack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 7px;
+    position: relative;
+    /* z-index: 1; */
+    /* top:200px; */
+    left:40%
+}
+.create_task input{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius: 6px;
+    /* border: none; */
+}
+
+.create_task textarea{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-radius: 6px;
+    width: 260px;
+    /* border: none; */
+}
+.create_task_none{
+    display: none;
+}
+.create_task button{
+    margin-top: 20px;
+    width: 100px;
+    margin-left: 40%;
+}
+
+.workers {
+    background-image: url(../Assets/truck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.workers_allCard {
+    margin-top: 40px;
+}
+.workrs_task h4{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.workrs_task {
+    margin: 100px 30px;
+    width: 20%;
+    height: 350px;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.workers h3 {
+    text-align: center
+}
+
+.workrs_task button {
+    border: none;
+    background-color: rgb(35, 224, 161);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 35%;
+}
+
+.taskbtn {
+    float: right;
+    background-color: rgb(35, 224, 161);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.add_task{
+    background-color: rgb(35, 224, 161);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.submit_task{
+    background-color: rgb(35, 224, 161);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.submit_task_1{
+    background-color: rgb(229, 55, 55);
+    /* background-color: rgb(35, 224, 161); */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}

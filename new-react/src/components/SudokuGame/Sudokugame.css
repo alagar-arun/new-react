@@ -1,0 +1,79 @@
+.inputBox {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 0px;
+}
+
+.inputBorderrow {
+    border-bottom: 3px solid rgb(29, 28, 28);
+}
+
+.inputBordercol {
+    border-right: 3px solid rgb(29, 28, 28);
+}
+
+td {
+    padding: 0px;
+}
+
+.soduku-tittle {
+    color: aliceblue;
+    /* display: inline-block; */
+    width: 456px;
+    background: linear-gradient(to right, rgb(200, 99, 99), rgb(106, 106, 173));
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.soduku-bottom {
+    margin-top: 20px;
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.soduku-buttons {
+    border: none;
+    background: linear-gradient(to right, rgb(200, 99, 99), rgb(106, 106, 173));
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.soduku-result-winner {
+    background: linear-gradient(to right, rgb(200, 99, 99), rgb(106, 106, 173));
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+    text-align: center;
+    width: 500px;
+    margin-top: 40px;
+}
+
+.soduku-result-again {
+    background: linear-gradient(to right, rgb(200, 99, 99), rgb(106, 106, 173));
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.wrong-move {
+    background-color: red;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+    width: 300px;
+}
+
+.block {
+    display: none;
+}
+
+.wrong-move {
+    background-color: red;
+    margin-top: 20px;
+}
